@@ -24,7 +24,9 @@ public class AddressBookServiceTest {
     public void givenContactNumber_WhenUpdated_ShouldSyncWithDb() {
         AddressBookService addressBookService = new AddressBookService();
         addressBookService.updateContactNumber("Jayant","11111111");
+// UC18-RetrieveContact
         boolean result = addressBookService.checkAddressBookInSyncWithDB("pranav");
+        boolean result = addressBookService.checkAddressBookInSyncWithDB("Jayant");
         Assert.assertTrue(result);
     }
 
