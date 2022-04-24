@@ -89,6 +89,11 @@ public class AddressBookDBService {
 
     }
     /*
+ //UC17-UpdateInfo
+     * update details of address book by their name
+     * update phoneNo of name "Jayant"
+     * */
+
      * update mobileNo by their firstName
      */
     private int updateAddressBookDataUsingStatement(String firstName, String mobileNumber) {
