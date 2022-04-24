@@ -28,7 +28,7 @@ public class AddressBookDBService {
     private Connection getConnection() throws SQLException {
         String jdbcURL = "jdbc:mysql://localhost:3306/addressbook_db";
         String userName = "root";
-        String password = "Pawar@1995";
+        String password = "0177ce151030";
         Connection connection;
         System.out.println("Connecting to database:" + jdbcURL);
         connection = DriverManager.getConnection(jdbcURL, userName, password);
@@ -68,7 +68,7 @@ public class AddressBookDBService {
 
     /*
      * update details of address book by their name
-     * update phoneNo of name "pranav"
+     * update phoneNo of name "Jayant"
      * */
 
     private int updateAddressBookDataUsingStatement(String firstName, String mobileNumber) {
